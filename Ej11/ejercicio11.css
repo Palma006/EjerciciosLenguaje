@@ -1,0 +1,46 @@
+body {
+    background-color: #33e7ff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    margin: 20px;
+    color: #005a66;
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.citas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.cita {
+    float: left;
+    width: 16rem;
+    height: 16rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: #00b4cc;
+    border: 5px dashed #005a66;
+    font-size: 1.5rem;
+    font-style: italic;
+    overflow: hidden;  
+}
+
+/* Estilo para la primera letra de cada cita */
+.cita::first-letter {
+    float: left;
+    color: #005a66;
+    font-size: 5rem;
+    font-style: italic;
+    line-height: 3rem;
+}
